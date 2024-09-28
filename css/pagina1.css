@@ -1,0 +1,44 @@
+/*selextor dody*/
+body{
+    
+    color: rgb(255, 255, 255);
+    /*Degradaso*/
+    background-image: linear-gradient(black,rgb(229, 194, 252));
+}
+
+#contenedor{
+  /*Ancho*/  
+    width:90%;
+    margin: 5px auto;
+    border: 1px rgb(255, 255, 255) inset;
+    height: 1000px;
+}
+
+#cabecera{
+    height: 60px;
+}
+
+#logo{
+    width:10%;
+    float:left;
+    border: 1px rgb(4, 116, 186) solid;
+}
+
+#navegador{
+    width:89.6%;
+    float:left;
+    border: 1px rgb(245, 205, 255) solid;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+

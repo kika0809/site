@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Anime</title>
+    <link rel="stylesheet" href="css/temalibre.css">
+</head>
+<body>
+    <!-- class pata varios elementos y id solo un elemento -->
+    <div id="contenedor" >
+        <a id="Home"></a>
+        <!-- Dentro del contenedor tenga un menu y es etiqueta en bloque -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Para imagenes de fondo -->
+        <header>
+            <h1>Blog Anime</h1>
+        </header>
+        <!-- Informacion mas importante de la pagina -->
+         <main>
+            <h2>Konosuba</h2>
+            <p class="impar">
+                Kazuma Satou vive una vida ridícula y patética, siendo un NEET recluido sin cualidades distintivas aparte de su adicción a los videojuegos. De camino a casa, Kazuma muere al intentar salvar a una chica de un camión 
+                que se aproximaba, o eso cree él. En realidad, el "camión" era un tractor que se movía lentamente y él simplemente murió de un shock. <br><br>
+                
+                Kazuma se despierta en el limbo entre la muerte y el cielo y se encuentra frente a la arrogante diosa Aqua. Allí, debe elegir entre dos opciones: ir al cielo o ser enviado a un mundo de fantasía que necesita su ayuda 
+                para derrotar al Rey Demonio. Inicialmente, Kazuma no se impresiona por la desafiante perspectiva de luchar contra un Rey Demonio, pero cambia de opinión después de que Aqua le dice que puede traer cualquier objeto que quiera. 
+                ¿Qué mejor opción tiene Kazuma que la diosa que está frente a él? <br><br>
+                
+                Desafortunadamente, después de que ambos llegan a su nuevo mundo, dos cosas quedan claras: Aqua es increíblemente inútil y la vida en este reino de fantasía no será nada fácil. Desde pagar la comida y el alojamiento 
+                hasta tratar de aprender nuevas habilidades, los problemas del dúo recién están comenzando a tomar forma, y ​​la llegada de aliados excéntricos solo puede empeorar las cosas.
+            </p>
+            <a id="Servicios"></a>
+            <h3>Shigatsu wa kimi no uso</h3>
+            <p class="par">
+                Kousei Arima es un prodigio en el piano y cualquiera dentro del mundo de la música conoce su nombre; pero cuando su madre y también maestra fallece, se desmorona en la mitad de un recital y desde ese momento es incapaz 
+                de oír el sonido de su piano aunque no tenga problemas de oído. Dos años después, Kousei sigue sin tocar el piano y ve el mundo como algo monótono, sin color. Se conformaba con llevar una vida tranquila junto a sus amigos, 
+                Tsubaki y Watari, hasta que una chica lo cambia todo. Kaori Miyazono es una chica muy guapa y una gran violinista cuyo carácter queda reflejado en su modo de tocar. Kaori ayudará a Kousei a volver al mundo de la música y 
+                a romper con la rígida estructura musical que Kousei ha tenido siempre presente en su vida.
+            <h4>Frieren</h4>
+            <p class="impar">
+                El Rey Demonio ha sido derrotado y el grupo de héroes victoriosos regresa a casa antes de disolverse. Los cuatro —el mago Frieren , el héroe Himmel , el sacerdote Heiter y el guerrero Eisen— recuerdan su viaje de una 
+                década mientras llega el momento de despedirse. Pero el paso del tiempo es diferente para los elfos, por lo que Frieren es testigo de cómo sus compañeros mueren lentamente uno por uno. <br><br>
+
+                Antes de morir, Heiter consigue imponerle a Frieren una joven aprendiz humana llamada Fern . Impulsada por la pasión de la elfa por coleccionar una gran cantidad de hechizos mágicos, la pareja se embarca en un viaje aparentemente sin rumbo, 
+                en el que vuelven a visitar los lugares que visitaron los héroes de antaño. A lo largo de sus viajes, Frieren se enfrenta lentamente a sus remordimientos por las oportunidades perdidas de formar vínculos más profundos con sus camaradas 
+                ahora fallecidos.
+            </p>
+            <a id="Blog"></a>
+            <h5>One Piece</h5>
+            <p class="par">
+                Gol D. Roger era conocido como el Rey de los Piratas, el pirata más fuerte e infame que haya navegado por Grand Line . La captura y muerte de Roger por parte del Gobierno Mundial trajo un cambio en todo el mundo. 
+                Sus últimas palabras antes de morir revelaron la ubicación del mayor tesoro del mundo, One Piece . Fue esta revelación la que provocó la Gran Era de los Piratas, hombres que soñaban con encontrar One Piece (que promete una cantidad 
+                ilimitada de riquezas y fama), y posiblemente el título más codiciado para la persona que lo encontrara, el título de Rey de los Piratas. <br><br>
+
+                Entra Monkey D. Luffy , un chico de 17 años que desafía la definición estándar de pirata. En lugar de la personalidad popular de un pirata malvado, endurecido y desdentado que saquea aldeas por diversión, la razón de Luffy para ser 
+                pirata es la pura maravilla; la idea de una aventura emocionante y conocer gente nueva e intrigante, junto con encontrar One Piece, son sus razones para convertirse en pirata. Siguiendo los pasos de su héroe de la infancia,  Shanks , 
+                Luffy y su tripulación viajan a través de Grand Line, experimentando aventuras locas, desvelando misterios oscuros y luchando contra enemigos fuertes, ¡todo con el fin de llegar a One Piece!
+            </p>
+         </main>
+         <aside>
+            <!-- Tipo de contenedor -->
+            <h2>Formulario de Contacto</h2>
+            <hr>
+            <div id="Panel">
+               <div>
+                <label for="correo" id="correo">Correo Electrónico</label><br>
+                <input type="text" id="correo" name="correo" placeholder="Escriba aqui correo" required class="caja">
+               </div> 
+               <div>    
+                <label for="mensaje">Su mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" required class="caja altura">
+                </textarea>
+               </div>
+               <div>
+                <button type="submit" class="caja boton">Enviar</button>
+               </div>
+            </div>
+            </aside>
+         <a id="Contacto"></a>
+         <!-- Indica el pie de la pagina como derechos reservados o contactos -->
+         <footer>
+            <small id="copyright">&#169 Derechos reservados, 2024</small>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_form.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="contenedor">
+        <img src="img/6b22eb03ce506663ef9174ee7f815774.jpg" alt="" id="fotous">
+        <h1>
+            Formulario de Contacto
+        </h1>
+        <form method="get">
+            <p>
+                <label for="nombre">Nombre Completo</label><br>
+                <input type="text" id="nombre" name="nombre" autofocus required placeholder="Nombre's">
+                <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos">
+            </p>
+            <p>
+                <label for="direccion">Dirección</label><br>
+                <input type="text" id="direccion" name="direccion" required>
+            </p>
+            <p>
+                <label for="municipio"></label>
+                <select name="municipio" id="municipio" required>
+                    <option value="municipio">Municipio</option>
+                    <option value="neza">Nezahualcoyotl</option>
+                    <option value="chima">Chimalhuacan</option>
+                    <option value="reyes">N/A</option>
+                </select>
+                <label for="estado"></label>
+                <select name="estado" id="estado" required>
+                    <option value="estado">Estado</option>
+                    <option value="edo">Estado de México</option>
+                    <option value="cdmx">Ciudad de México</option>
+                    <option value="mor">Morelos</option>
+                </select>
+                <label for="cp"></label>
+                <input type="text" id="cp" name="cp" required placeholder="C.P">
+            </p>
+            <p>
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="Telefono">
+                <label for="fenacimiento"></label>
+                <input type="date" id="fenacimiento" name="fenacimiento" required title="Fecha de Nacimiento">
+            </p>
+            <p>
+                <label for="terminos"></label>
+                <input type="checkbox" id="terminos" name="terminos" value="Acepto Terminos"> Acepto Términos<br>
+            </p>
+            <p>
+                <label for="comentarios"></label>
+                <textarea cols="40" rows="8" required id="msg" name="msg" placeholder="Comentarios Adicionales"></textarea>
+            </p>
+            <p>
+                <input type="submit" id="remitir" value="Remitir">
+            </p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(101, 149, 197); /*color de fondo*/
+    color: black; /*color de letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra*/
+    font-size: 1em;
+}
+#contenedor{
+    width: 90%;
+    margin: 5px auto;
+    border: 4px crimson;
+    border-radius: 10px;
+}
+nav{
+
+}
+#logo{
+    float: left;
+    width: 15%;
+    height: 100px;
+    text-align: center;
+    background-color:mediumorchid;
+}
+#menu{
+    float: left;
+    width: 65%;
+    height: 100px;
+    text-align: center;
+    background-color: mediumorchid;
+    display: inline-block;
+    font-size: 1.2em;
+    text-decoration: none;
+    
+}
+a:hover{ /*Propiedad para resaltar*/
+    color: blue;
+    text-decoration: underline;
+}
+#redes{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: mediumorchid ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+header{ clear: both; /* anula el flotamiento*/
+    height: 250px;
+    background-color: rgb(101, 149, 197);
+}
+#izq{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(101, 149, 197);
+}
+#centro{
+    float: left;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(101, 149, 197);
+}
+#der{
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: rgb(101, 149, 197);
+}
+#uno{ clear: both;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(101, 149, 197);   
+}
+#dos{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(101, 149, 197);
+}
+footer{
+    clear: both;
+    height: 30px;
+    background-color: rgb(101, 149, 197);
+    text-align: center;
+    color: white;
+}
+#AA{
+    border-radius: 80px;
+    height: 90px ;
+    width: 90px auto;
+}
+nav ul li a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none; /*Para quitar el subrayado de las letras*/
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border: 2px crimson solid;
+    border-radius: 10px;
+}
+.cup{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+#AL{
+    height: 100px ;
+    width: 100px auto;
+}
+#ALl{
+    height: 130px ;
+    width: 130px auto;
+}
+.jug{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.ar{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    border: 2px crimson solid;
+    border-radius: 10px;
+}
+.mug{
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    border: 2px crimson solid;
+    border-radius: 10px;
+}
+.aw{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border: 2px crimson solid;
+    border-radius: 10px;
+}
+.mol{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+

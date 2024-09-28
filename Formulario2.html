@@ -1,0 +1,81 @@
+
+<html lang="en">
+    <head>
+        <style>
+            *contenedor{
+                width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Mas elementos formulario -->
+         <div id="contenedor">
+            <form method="get"> 
+                <!-- Si se quiere subir una imagen se debe agregar más atributos añ form -->
+                <p>
+                    <label for="comentarios">Comentarios</label><br>
+                    <textarea cols="40" rows="8" required id="msg" name="msg">Términos y condiciones</textarea>
+                </p>
+                <p>
+                    <label for="lenguaje">Lenguaje(s) Favoritos</label><br>
+                    <select name="lenguaje" id="lenguaje" required multiple="true">
+                        <option value="">Seleccione...</option>
+                        <option value="php">PHP</option>
+                        <option value="phyton">Phyton</option>
+                        <option value="javaScript">JavaScript</option>
+                        <option value="java">Java</option>
+                        <option value="c++">C++</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="imagen">Seleccione una imagen</label><br>
+                    <input type="file" id="imagen" name="imagen" required>
+                </p>
+                <p>
+                    <label for="imagen">Seleccione una imagen</label><br>
+                    <input type="file" id="imagen" name="imagen" required multiple>
+                </p>
+                <p>
+                    <label for="so">Sistema Operativo</label><br>
+                    <input type="checkbox" id="so1" name="so1" value="windows">Windows<br>
+                    <input type="checkbox" id="so2" name="so2" value="macos">MacOS<br>
+                    <input type="checkbox" id="so3" name="so3" value="linux">Linux<br>
+                </p>
+                <p>
+                    <label for="so">Sistema Operativo</label><br>
+                    <input type="radio" id="so" name="so1" value="windows">Windows<br>
+                    <input type="radio" id="so" name="so2" value="macos">MacOS<br>
+                    <input type="radio" id="so" name="so3" value="linux">Linux<br>
+                </p>
+                <p>
+                    <button id="lista">Listar datos</button>&nbsp;&nbsp;
+                    <button id="gaurdar">Guardar datos</button>&nbsp;&nbsp;
+                    <button id="eliminar">Eliminar datos</button>&nbsp;&nbsp;
+                    <button id="editar">Editar datos</button>&nbsp;&nbsp;
+                    <!-- <button type="submit" id="remitir">Remitir datos</button> -->
+                </p>
+                <!-- Nuevos elementos de formulario -->
+                <p>
+                    <label for="date">Fecha</label><br>
+                    <input type="date" id="fecha" name="fecha" required>
+                </p>
+                <p>
+                    <label for="hora">Hora de registro</label><br>
+                    <input type="time" id="hora" name="hora" required>
+                </p>
+                <p>
+                    <label for="edad">Seleccione edad</label><br>
+                    <input type="number" id="edad" name="edad" required min="0" max="100" step="5">
+                </p>
+                <p>
+                    <label for="email">Correo</label><br>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+                <p>
+                    <input type="submit" id="remitir" value="Remitir información">
+                </p>
+            </form>
+         </div>
+         <a href="index.html">Home</a>
+    </body>
+</html>
